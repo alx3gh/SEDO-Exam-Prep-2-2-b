@@ -1,7 +1,7 @@
 name: Build and test HouseRenting
 
 on:
-  pull_request:
+  push:
     branches:
       - 'develop'
       - 'feature'
